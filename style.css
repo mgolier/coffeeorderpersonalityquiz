@@ -1,0 +1,44 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Open Sans";
+  margin: 2em;
+  text-align: center;
+  .button:hover {
+    background-color: #89662a;
+    transition: 0.7s;
+  }
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Open Sans";
+  color: #89662a;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
